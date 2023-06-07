@@ -10,4 +10,4 @@ mediapipe==0.10.0
 pillow==9.5.0
 opencv==4.7.0
 opencv-contrib-python==4.7.0.72
-tensorflow==2.11.1
+tensorflow
