@@ -1,6 +1,7 @@
 name: AItrainer
 channels:
   - anaconda
+  - conda-forge
   - soumith
   - defaults
 dependencies:
