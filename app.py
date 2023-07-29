@@ -31,7 +31,7 @@ def attention_block(inputs, time_steps):
     
     return output_attention_mul
 
-
+@st.cache_data
 def build_model(HIDDEN_UNITS=256, sequence_length=30, num_input_values=33*4, num_classes=3):
     """
     Function used to build the deep neural network model on startup
